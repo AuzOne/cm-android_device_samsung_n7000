@@ -1,7 +1,7 @@
 [
     {
         "remote": "github",
-        "repository": "CyanogenMod/android_device_samsung_galaxys2-common",
+        "repository": "bauner/cm-android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
         "revision": "cm-12.1"
     }
