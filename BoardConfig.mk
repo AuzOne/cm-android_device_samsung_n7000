@@ -33,7 +33,6 @@ TARGET_TC_KERNEL := 4.9-linaro
 TARGET_TC_ROM    := 4.9-linaro
 
 # Optimizations
- BLISSIFY := true
  BLISS_O3 := true
  BLISS_STRICT := true
  BLISS_GRAPHITE := true
