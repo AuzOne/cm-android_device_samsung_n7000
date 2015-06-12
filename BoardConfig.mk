@@ -29,7 +29,6 @@ TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 
 # BlissPop Config Flags
-BLISS_WIPE_CACHES := 1
 TARGET_TC_ROM := 4.9-sm
 TARGET_TC_KERNEL := 4.9-sm
 BLISSIFY := true
