@@ -28,16 +28,15 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n7000/bluetooth
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 
-# Inline kernel building lp
-TARGET_TC_KERNEL := 4.9-linaro
-TARGET_TC_ROM    := 4.9-linaro
-
-# Optimizations
- BLISS_O3 := true
- BLISS_STRICT := true
- BLISS_GRAPHITE := true
- BLISS_PIPE := true
- 
+# BlissPop Config Flags
+BLISS_WIPE_CACHES := 1
+TARGET_TC_ROM := 4.9-sm
+TARGET_TC_KERNEL := 4.9-sm
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_STRICT := true
+BLISS_GRAPHITE := true
+BLISS_PIPE := true
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL) 
 
