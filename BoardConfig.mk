@@ -25,12 +25,12 @@ TARGET_BOARD_INFO_FILE := device/samsung/n7000/board-info.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n7000/bluetooth
 
 # Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
+TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_n7000_defconfig
 
 # BlissPop Config Flags
 TARGET_TC_ROM := 4.9-sm
-TARGET_TC_KERNEL := 4.9-sm
+TARGET_TC_KERNEL := 4.9-saber
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := true
